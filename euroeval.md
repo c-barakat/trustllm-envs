@@ -96,6 +96,7 @@
     import nest_asyncio
     nest_asyncio.apply()
 ```
+- If the benchamrk returns errors related to elements of the `evaluate` library not being found, clone the library from `https://github.com/huggingface/evaluate` then copy the directory of the specific missing element from `evaluate/metrics/` into your local directory
 
 ## References:
 ```
